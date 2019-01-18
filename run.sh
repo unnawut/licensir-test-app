@@ -1,4 +1,5 @@
 #!/bin/sh
 
-mix deps.update --all
+mix deps.get
+mix deps.update licensir
 mix licenses
